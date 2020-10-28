@@ -1,0 +1,7 @@
+FROM golang:latest
+RUN mkdir /app
+ADD ./src /app
+WORKDIR /app
+ENV TABLE_NAME=""
+RUN go build -o main .
+CMD ["/app/main"]

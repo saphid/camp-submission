@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"webserver_cluster","Source":"git@github.com:saphid/tf_modules.git//services/webserver-cluster?ref=v0.0.3","Dir":".terraform/modules/webserver_cluster/services/webserver-cluster"}]}
